@@ -1,5 +1,5 @@
 body {
-    background-image: url('/src/Imagenes/FondoPortafolio.jpg');
+    background-image: url('/src/Imagenes/Fondo.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
@@ -14,9 +14,17 @@ img {
     margin: 0 auto; 
 }
 
+h1 {
+    color: #be6edc;
+    font-family: cursive;
+    font-size: 85px;
+}
+h2 {
+    color: #ffffff;
+}
 .footer {
     width: 100%;
-    background-color: #72577c;
+    background-color: #be6edc;
     margin-bottom: 0;
     padding-bottom: 3rem;
 }
@@ -33,3 +41,16 @@ img {
     justify-content: center;
     padding-top: 4rem;
 }
+  
+.circle {
+    height: 24px;
+    width: 24px;
+    border-radius: 24px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 99999999;
+  }
+  
