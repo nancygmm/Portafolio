@@ -5,12 +5,14 @@ import Cursor from './Cursor';
 function Inicio() {
   return (
     <>
-    <div>
-    <h1>Inicio</h1>
-    <h2>Portafolio</h2>
-    <Cursor/>
-    </div>
-      <Footer/>
+      <div className="wrapper">
+        <main className="contenedor-info">
+          <h1>Title</h1>
+          <p>Hola</p>
+        </main>
+        <Footer />
+      </div>
+      <Cursor />
     </>
   );
 }
