@@ -33,8 +33,15 @@ function Inicio() {
         <div className="contenedor sobre-mi">
           <div className="sobre-mi-content">
             <div className="text">
-              <h1>Sobre mí</h1>
-              <h2>Soy estudiante de tercer año en la Universidad del Valle de Guatemala</h2>
+              <h1>¿Quién soy?</h1>
+              <p>---------------------------------------------------------------------------------------</p>
+              <p>-----------------------------------------------------------------------------</p>
+              <h2>Actualmente soy estudiante de tercer año en la Universidad del Valle de Guatemala, como estudiante 
+                me he encontrado con retos bastantes difíciles en mi ruta de aprendizaje. Mientras iba superadno reto por reto 
+                fui aprendiendo cada vez más tecnolgías para aplicar a mi carrera. Ahora bien, como persona me considero una 
+                persona responsable, organizada y creativa. Soy una persona amante del diseño, lo cual me ayuda a la hora de 
+                comenzar un nuevo proyecto que se necesite elaborar algún diseño de cualquier tipo.
+              </h2>
             </div>
           </div>
         </div>
