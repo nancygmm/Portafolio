@@ -15,17 +15,16 @@ function Inicio() {
               <h1>Nancy Mazariegos</h1>
               <p>---------------------------------------------------------------------------------------</p>
               <p>-----------------------------------------------------------------------------</p>
-              <h2>Estudiante de ingeniería en</h2>
-              <h2>ciencia de la computación y</h2>
-              <h2>tecnologías de la información</h2>
+              <h2>Estudiante de ingeniería en ciencia de la  </h2>
+              <h2>computación y tecnologías de la información</h2>
             </div>
             <div className="contenedor contacto">
               <div className="contacto-content">
               <div className="text">
-              <h1>Contacto</h1>
-              <h2>Tel: +502 5318-4439</h2>
-              <h2>LinkedIn: Nancy Mazariegos</h2>
-              <h2>IG: gabymm._</h2>
+              <h2>Contacto</h2>
+              <p>Tel: +502 5318-4439</p>
+              <p>LinkedIn: Nancy Mazariegos</p>
+              <p>IG: gabymm._</p>
             </div>
               </div>
             </div>

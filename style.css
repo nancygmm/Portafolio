@@ -40,6 +40,7 @@
   
   p {
     color: #ffffff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   
   .wrapper {
@@ -98,7 +99,7 @@
   
   .portada {
     background-color: #96bda8;
-    height: 600px;
+    height: 550px;
     display: flex;
     align-items: center;
     position: relative; 
@@ -119,7 +120,7 @@
   .portada .text {
     flex: 1;
     margin-left: 10%;
-    margin-top: 5%;
+    margin-top: 7%;
     z-index: 0; 
   }
   
@@ -140,7 +141,7 @@
   
   .contacto {
     background-color: #f7d3a3;
-    height: 200px;
+    height: 110px;
     width: 100%; 
     position: absolute;
     bottom: 0;
