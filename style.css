@@ -37,6 +37,12 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 25px;
   }
+
+  h3 {
+    color: #ffffff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+  }
   
   p {
     color: #ffffff;
@@ -124,22 +130,6 @@
     z-index: 0; 
   }
   
-  .sobre-mi {
-    background-color: #966c80;
-    height: 350px;
-  }
-  
-  .sobre-mi-content {
-    display: flex;
-    width: 100%;
-  }
-  
-  .sobre-mi .text {
-    flex: 1;
-    margin-left: 8%;
-    margin-right: 8%;
-  }
-  
   .contacto {
     background-color: #f7d3a3;
     height: 110px;
@@ -162,16 +152,71 @@
     margin-top: auto;
   }
   
+  .sobre-mi {
+    background-color: #966c80;
+    height: 350px;
+  }
+  
+  .sobre-mi-content {
+    display: flex;
+    width: 100%;
+  }
+  
+  .sobre-mi .text {
+    flex: 1;
+    margin-left: 8%;
+    margin-right: 8%;
+  }
   
   .educacion {
     background-color: #bfd4ad;
     color: black;
-    height: 250px;
+    height: 500px;
   }
   
-  .experiencia-laboral {
+  .educacion-content {
+    display: flex;
+    width: 100%;
+  }
+  
+  .educacion .image img {
+    height: 550px;
+    width: 500px;
+    margin-left: 160%;
+    margin-top: 25%;
+    position: relative; 
+    z-index: 1; 
+  }
+  
+  .educacion .image {
+    display: flex;
+    align-items: center;
+    z-index: 1; 
+  }
+  
+  .educacion .text {
+    flex: 1;
+    margin-left: -28%;
+  }
+  
+  .educacion .text h3 {
+    margin-top: 2%;
+  }
+
+  .habilidades {
     background-color: #eca36c;
     height: 350px;
+  }
+  
+  .habilidades-content {
+    display: flex;
+    width: 100%;
+  }
+  
+  .habilidades .text {
+    flex: 1;
+    margin-left: 7%;
+    margin-right: 8%;
   }
   
   .contenedor h1 {
