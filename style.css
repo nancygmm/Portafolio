@@ -180,7 +180,7 @@
   .educacion {
     background-color: #bfd4ad;
     color: black;
-    height: 300px;
+    height: 400px;
   }
   
   .educacion-content {
@@ -192,7 +192,7 @@
     height: 550px;
     width: 500px;
     margin-left: 160%;
-    margin-top: 5%;
+    margin-top: 35%;
     position: relative; 
     z-index: 1; 
   }
@@ -205,6 +205,7 @@
   
   .educacion .text {
     flex: 1;
+    margin-top: 2%;
     margin-right: 50%;
     margin-left: -28%;
   }
@@ -215,7 +216,7 @@
 
   .habilidades {
     background-color: #eca36c;
-    height: 650px;
+    height: 550px;
   }
   
   .habilidades-content {

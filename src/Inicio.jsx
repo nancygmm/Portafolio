@@ -65,6 +65,8 @@ function Inicio() {
               <p>-------------------------------------------------------------------------------------</p>
               <h4>2022 - Hasta la fecha</h4>
               <h2>- Universidad del Valle de Guatemala</h2>
+              <h4>2020 - 2021</h4>
+              <h2>- Estudio Garabato - Academia artística</h2>
               <h4>2009 - 2021</h4>
               <h2>- Colegio Guatemalteco Bilingüe</h2>
             </div>
@@ -91,9 +93,6 @@ function Inicio() {
               </h2>
               <h3>- Figma</h3>
               <h3>- Procreate</h3>
-              <h3>- Adobe Photoshop</h3>
-              <h3>- Adobe Fresco</h3>
-              <h3>- Adobe Illustrator</h3>
             </div>
           </div>
         </div>
