@@ -279,7 +279,7 @@
 
 .proyectos {
   background-color: #96bda8;
-  height: 600px;
+  height: 630px;
 }
 
 .proyectos-content {
@@ -297,7 +297,7 @@
   height: 400px;
   width: 400px;
   margin-left: 60%;
-  margin-top: -35%;
+  margin-top: -40%;
   position: relative; 
   z-index: 1; 
 }

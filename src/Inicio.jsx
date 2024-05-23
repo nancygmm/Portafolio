@@ -118,14 +118,16 @@ function Inicio() {
           <div className="proyectos-content">
             <div className="text">
               <h1>Proyectos</h1>
-              <p>---------------------------------------------------------------------------------------</p>
-              <p>-----------------------------------------------------------------------------</p>
+              <p>-------------------------------------------------------------------------------------------</p>
+              <p>--------------------------------------------------------------------------------</p>
               <h2 className="seccion">- Calculadora funcional</h2>
               <h3>Repo: <a href="https://github.com/nancygmm/Calculadora.git" target="_blank" rel="noopener noreferrer">https://github.com/nancygmm/Calculadora.git</a></h3>
               <h2 className="seccion">- Proyecto de Vacunación</h2>
               <h3>Repo: <a href="https://github.com/nancygmm/ProyectoVacunas.git" target="_blank" rel="noopener noreferrer">https://github.com/nancygmm/ProyectoVacunas.git</a></h3>
               <h2 className="seccion">- Blog de Gravity Falls</h2>
               <h3>Repo: <a href="https://github.com/nancygmm/22513_P1WEB.git" target="_blank" rel="noopener noreferrer">https://github.com/nancygmm/22513_P1WEB.git</a></h3>
+              <p className="seccion">------------------------------------------------------------------------------------------</p>
+              <p>--------------------------------------------------------------------------------</p>
               <h2 className="seccion">Link a GitHub: <a href="https://github.com/nancygmm" target="_blank" rel="noopener noreferrer">https://github.com/nancygmm</a></h2>
               <div className="image">
                 <img src={Icon} alt="Icon" />
