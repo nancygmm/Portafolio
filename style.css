@@ -230,10 +230,26 @@
   .seccion {
     margin-top: 25px;
 }
-  
-.proyectos {
+
+.soft-skills {
   background-color: #f7d3a3;
-  height: 140px;
+  height: 300px;
+}
+
+.soft-skills-content {
+  display: flex;
+  width: 100%;
+}
+
+.soft-skills .text {
+  flex: 1;
+  margin-top: 2%;
+  margin-left: 10%;
+}
+
+.proyectos {
+  background-color: #96bda8;
+  height: 600px;
 }
 
 .proyectos-content {
@@ -244,6 +260,20 @@
 .proyectos .text {
   flex: 1;
   margin-top: 2%;
-  margin-left: 8%;
-  margin-right: 8%;
+  margin-left: 10%;
+}
+
+.proyectos .image img {
+  height: 500px;
+  width: 550px;
+  margin-left: 15%;
+  margin-top: 5%;
+  position: relative; 
+  z-index: 1; 
+}
+
+.proyectos .image {
+  display: flex;
+  align-items: center;
+  z-index: 1; 
 }

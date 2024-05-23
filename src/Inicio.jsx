@@ -2,6 +2,7 @@ import React from "react";
 import Cursor from './Cursor';
 import Portada from './Imagenes/Portada.jpg';
 import Grad from './Imagenes/Grad.jpg';
+import Icon from './Imagenes/GitHub.png';
 
 function Inicio() {
   return (
@@ -75,14 +76,28 @@ function Inicio() {
               <h1>Habilidades</h1>
               <p>---------------------------------------------------------------------------------------</p>
               <p>-----------------------------------------------------------------------------</p>
-              <h2>no se que poner</h2>
+              <h2 className="seccion">Programación:</h2>
+              <h2 className="seccion">Diseño:</h2>
+            </div>
+          </div>
+        </div>
+        <div className="contenedor soft-skills">
+          <div className="soft-skills-content">
+            <div className="text">
+              <h1>Soft skills</h1>
+              <p>---------------------------------------------------------------------------------------</p>
+              <p>-----------------------------------------------------------------------------</p>
+              <h2 className="seccion">no se que poner</h2>
             </div>
           </div>
         </div>
         <div className="contenedor proyectos">
           <div className="proyectos-content">
+          <div className="image">
+              <img src={Icon} alt="Icon" />
+            </div>
             <div className="text">
-              <h1>Habilidades</h1>
+              <h1>Proyectos</h1>
               <p>---------------------------------------------------------------------------------------</p>
               <p>-----------------------------------------------------------------------------</p>
               <h2>no se que poner</h2>
