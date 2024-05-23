@@ -14,10 +14,9 @@ function Inicio() {
             </div>
             <div className="text">
               <h1>Nancy Mazariegos</h1>
-              <p>---------------------------------------------------------------------------------------</p>
-              <p>-----------------------------------------------------------------------------</p>
-              <h2>Estudiante de ingeniería en ciencia de la</h2>
-              <h2>computación y tecnologías de la información</h2>
+              <p>----------------------------------------------------------------------------------------------------------</p>
+              <p>----------------------------------------------------------------------------------------------</p>
+              <h2 className="seccion">Estudiante de ingeniería en ciencia de la computación y tecnologías de la información</h2>
             </div>
             <div className="contenedor contacto">
               <div className="contacto-content">
@@ -37,16 +36,19 @@ function Inicio() {
               <h1>¿Quién soy?</h1>
               <p>---------------------------------------------------------------------------------------</p>
               <p>-----------------------------------------------------------------------------</p>
+              <h2 className="seccion">
+              Actualmente, soy estudiante de tercer año en la Universidad del Valle de Guatemala, donde he enfrentado y superado numerosos 
+              desafíos en mi trayectoria académica. Estos retos han sido oportunidades para ampliar mi conocimiento en diversas tecnologías 
+              relevantes para mi carrera.
+              </h2>
               <h2>
-                Actualmente soy estudiante de tercer año en la Universidad del
-                Valle de Guatemala, como estudiante me he encontrado con retos
-                bastantes difíciles en mi ruta de aprendizaje. Mientras iba
-                superando reto por reto fui aprendiendo cada vez más tecnologías
-                para aplicar a mi carrera. Ahora bien, como persona me considero
-                una persona responsable, organizada y creativa. Soy una persona
-                amante del diseño, lo cual me ayuda a la hora de comenzar un
-                nuevo proyecto que se necesite elaborar algún diseño de
-                cualquier tipo.
+              Como profesional, me destaco por ser una persona responsable, organizada y creativa. Me encanta el diseño, lo cual me 
+              permite aportar complementos en  proyectos que requieren la elaboración de diseños de distintas maneras. Además, 
+              poseo habilidades en programación que complementan mi capacidad para desarrollar proyectos aún más complejos. 
+              </h2>
+              <h2>
+              Estoy comprometida con el constante aprendizaje de nuevos conocimientos para aplicar y expandir mis competencias 
+              en diseño y programación.
               </h2>
             </div>
           </div>
@@ -58,9 +60,9 @@ function Inicio() {
             </div>
             <div className="text">
               <h1>Educación</h1>
-              <p>---------------------------------------------------------------------------------------</p>
-              <p>-----------------------------------------------------------------------------</p>
-              <h3>2022 - Hasta la fecha</h3>
+              <p>----------------------------------------------------------------------------------------------</p>
+              <p>-------------------------------------------------------------------------------------</p>
+              <h3 className="seccion-pequeña">2022 - Hasta la fecha</h3>
               <h2>- Universidad del Valle de Guatemala</h2>
               <h3>2009 - 2021</h3>
               <h2>- Colegio Guatemalteco Bilingüe</h2>
@@ -69,6 +71,16 @@ function Inicio() {
         </div>
         <div className="contenedor habilidades">
           <div className="habilidades-content">
+            <div className="text">
+              <h1>Habilidades</h1>
+              <p>---------------------------------------------------------------------------------------</p>
+              <p>-----------------------------------------------------------------------------</p>
+              <h2>no se que poner</h2>
+            </div>
+          </div>
+        </div>
+        <div className="contenedor proyectos">
+          <div className="proyectos-content">
             <div className="text">
               <h1>Habilidades</h1>
               <p>---------------------------------------------------------------------------------------</p>
