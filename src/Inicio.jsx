@@ -3,6 +3,7 @@ import Cursor from './Componentes/Cursor';
 import Portada from './Imagenes/Portada.jpg';
 import Grad from './Imagenes/Grad.jpg';
 import Icon from './Imagenes/GitHub.png';
+import Soft from './Imagenes/Softskills.png';  // Corrige la ruta de la imagen
 
 function Inicio() {
   return (
@@ -98,17 +99,24 @@ function Inicio() {
         </div>
         <div className="contenedor soft-skills">
           <div className="soft-skills-content">
+            <div className="image">
+              <img src={Soft} alt="Soft Skills" />
+            </div>
             <div className="text">
               <h1>Soft skills</h1>
               <p>---------------------------------------------------------------------------------------</p>
               <p>-----------------------------------------------------------------------------</p>
-              <h2 className="seccion">no se que poner</h2>
+              <h2 className="seccion">- Liderazgo</h2>
+              <h2>- Responsabilidad</h2>
+              <h2>- Organización</h2>
+              <h2>- Creatividad</h2>
+              <h2>- Resolución de problemas</h2>
             </div>
           </div>
         </div>
         <div className="contenedor proyectos">
           <div className="proyectos-content">
-          <div className="image">
+            <div className="image">
               <img src={Icon} alt="Icon" />
             </div>
             <div className="text">

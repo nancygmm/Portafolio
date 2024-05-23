@@ -240,7 +240,7 @@
 
 .soft-skills {
   background-color: #f7d3a3;
-  height: 300px;
+  height: 450px;
 }
 
 .soft-skills-content {
@@ -250,8 +250,23 @@
 
 .soft-skills .text {
   flex: 1;
-  margin-top: 2%;
-  margin-left: 10%;
+  margin-top: 1%;
+  margin-left: 7%;
+}
+
+.soft-skills .image img {
+  height: 400px;
+  width: 450px;
+  margin-left: 15%;
+  margin-top: 1%;
+  position: relative; 
+  z-index: 1; 
+}
+
+.soft-skills .image {
+  display: flex;
+  align-items: center;
+  z-index: 1; 
 }
 
 .proyectos {
