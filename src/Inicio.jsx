@@ -3,7 +3,7 @@ import Cursor from './Componentes/Cursor';
 import Portada from './Imagenes/Portada.jpg';
 import Grad from './Imagenes/Grad.jpg';
 import Icon from './Imagenes/GitHub.png';
-import Soft from './Imagenes/Softskills.png';  // Corrige la ruta de la imagen
+import Soft from './Imagenes/Softskills.png'; 
 
 function Inicio() {
   return (
@@ -25,8 +25,8 @@ function Inicio() {
                 <div className="text">
                   <h2>Contacto</h2>
                   <p>Tel: +502 5318-4439</p>
-                  <p>LinkedIn: Nancy Mazariegos</p>
-                  <p>IG: gabymm._</p>
+                  <p>LinkedIn: <a href="https://www.linkedin.com/in/nancy-mazariegos/" target="_blank" rel="noopener noreferrer">Nancy Mazariegos</a></p>
+                  <p>IG: <a href="https://www.instagram.com/gabymm._" target="_blank" rel="noopener noreferrer">gabymm._</a></p>
                 </div>
               </div>
             </div>
@@ -116,14 +116,20 @@ function Inicio() {
         </div>
         <div className="contenedor proyectos">
           <div className="proyectos-content">
-            <div className="image">
-              <img src={Icon} alt="Icon" />
-            </div>
             <div className="text">
               <h1>Proyectos</h1>
               <p>---------------------------------------------------------------------------------------</p>
               <p>-----------------------------------------------------------------------------</p>
-              <h2 className="seccion">no se que poner</h2>
+              <h2 className="seccion">- Calculadora funcional</h2>
+              <h3>Repo: <a href="https://github.com/nancygmm/Calculadora.git" target="_blank" rel="noopener noreferrer">https://github.com/nancygmm/Calculadora.git</a></h3>
+              <h2 className="seccion">- Proyecto de Vacunación</h2>
+              <h3>Repo: <a href="https://github.com/nancygmm/ProyectoVacunas.git" target="_blank" rel="noopener noreferrer">https://github.com/nancygmm/ProyectoVacunas.git</a></h3>
+              <h2 className="seccion">- Blog de Gravity Falls</h2>
+              <h3>Repo: <a href="https://github.com/nancygmm/22513_P1WEB.git" target="_blank" rel="noopener noreferrer">https://github.com/nancygmm/22513_P1WEB.git</a></h3>
+              <h2 className="seccion">Link a GitHub: <a href="https://github.com/nancygmm" target="_blank" rel="noopener noreferrer">https://github.com/nancygmm</a></h2>
+              <div className="image">
+                <img src={Icon} alt="Icon" />
+              </div>
             </div>
           </div>
         </div>

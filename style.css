@@ -55,6 +55,14 @@
     color: #ffffff;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
+
+  a {
+    color: #ffffff; 
+  }
+  
+  a:hover {
+    color: #966c80; 
+  }  
   
   .wrapper {
     display: flex;
@@ -282,14 +290,14 @@
 .proyectos .text {
   flex: 1;
   margin-top: 2%;
-  margin-left: 10%;
+  margin-left: 7%;
 }
 
 .proyectos .image img {
-  height: 500px;
-  width: 550px;
-  margin-left: 15%;
-  margin-top: 5%;
+  height: 400px;
+  width: 400px;
+  margin-left: 60%;
+  margin-top: -35%;
   position: relative; 
   z-index: 1; 
 }
