@@ -1,5 +1,5 @@
 import React from "react";
-import Cursor from './Cursor';
+import Cursor from './Componentes/Cursor';
 import Portada from './Imagenes/Portada.jpg';
 import Grad from './Imagenes/Grad.jpg';
 import Icon from './Imagenes/GitHub.png';
@@ -63,9 +63,9 @@ function Inicio() {
               <h1>Educación</h1>
               <p>----------------------------------------------------------------------------------------------</p>
               <p>-------------------------------------------------------------------------------------</p>
-              <h3 className="seccion-pequeña">2022 - Hasta la fecha</h3>
+              <h4>2022 - Hasta la fecha</h4>
               <h2>- Universidad del Valle de Guatemala</h2>
-              <h3>2009 - 2021</h3>
+              <h4>2009 - 2021</h4>
               <h2>- Colegio Guatemalteco Bilingüe</h2>
             </div>
           </div>
@@ -76,8 +76,24 @@ function Inicio() {
               <h1>Habilidades</h1>
               <p>---------------------------------------------------------------------------------------</p>
               <p>-----------------------------------------------------------------------------</p>
-              <h2 className="seccion">Programación:</h2>
-              <h2 className="seccion">Diseño:</h2>
+              <h2 className="seccion">
+                Programación:
+              </h2>
+              <h3>- Python</h3>
+              <h3>- Java</h3>
+              <h3>- SQL</h3>
+              <h3>- Javascript</h3>
+              <h3>- Kotlin</h3>
+              <h3>- C/C++</h3>
+              <h3>- Git</h3>
+              <h2 className="seccion">
+                Diseño:
+              </h2>
+              <h3>- Figma</h3>
+              <h3>- Procreate</h3>
+              <h3>- Adobe Photoshop</h3>
+              <h3>- Adobe Fresco</h3>
+              <h3>- Adobe Illustrator</h3>
             </div>
           </div>
         </div>
@@ -100,7 +116,7 @@ function Inicio() {
               <h1>Proyectos</h1>
               <p>---------------------------------------------------------------------------------------</p>
               <p>-----------------------------------------------------------------------------</p>
-              <h2>no se que poner</h2>
+              <h2 className="seccion">no se que poner</h2>
             </div>
           </div>
         </div>
